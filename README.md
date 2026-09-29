@@ -6,25 +6,7 @@ Connect Instagram, TikTok, YouTube, LinkedIn, X, Facebook, Pinterest, and Thread
 
 ## Install
 
-### Cursor Marketplace (after listing)
-
-1. Open **Customize** in Cursor.
-2. Find **PostWing** and click **Install**.
-3. Sign in to PostWing when prompted (OAuth).
-4. Ask the agent to schedule a post.
-
-### Local test (before / during review)
-
-```bash
-mkdir -p ~/.cursor/plugins/local
-cp -R . ~/.cursor/plugins/local/postwing
-```
-
-Then **Developer: Reload Window**, open Customize, and confirm the PostWing MCP server appears. Connect a PostWing account when the first tool runs.
-
-### Manual MCP config
-
-If you prefer a raw `mcp.json` entry:
+Add PostWing as a custom MCP server in Cursor (**Customize → MCP**, or edit `~/.cursor/mcp.json`):
 
 ```json
 {
@@ -36,7 +18,16 @@ If you prefer a raw `mcp.json` entry:
 }
 ```
 
-Cursor authenticates with OAuth against PostWing. Leave client ID/secret blank — dynamic registration is supported.
+Cursor authenticates with OAuth against PostWing. Leave client ID/secret blank — dynamic registration is supported. Sign in to PostWing when prompted, then ask the agent to schedule a post.
+
+### Local plugin test
+
+```bash
+mkdir -p ~/.cursor/plugins/local
+cp -R . ~/.cursor/plugins/local/postwing
+```
+
+Then **Developer: Reload Window**, open Customize, and confirm the PostWing MCP server appears.
 
 ## Requirements
 
@@ -68,16 +59,6 @@ The bundled skill `schedule-social-posts` teaches the agent this flow.
 - Schedule and edit require a short-lived confirmation token after preview.
 
 See [postwing.io/privacy](https://postwing.io/privacy) and [postwing.io/docs](https://postwing.io/docs).
-
-## Publishing this plugin
-
-This folder is a self-contained Cursor Plugin. To submit to the [Cursor Marketplace](https://cursor.com/marketplace/publish):
-
-Public repo: [mejed-alkoutaini/postwing-cursor-plugin](https://github.com/mejed-alkoutaini/postwing-cursor-plugin).
-
-1. Confirm `main` has `.cursor-plugin/plugin.json`, `mcp.json`, `assets/logo.png`, and this README.
-2. Submit the repo URL at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
-3. Optionally list on [cursor.directory](https://cursor.directory) for faster community discovery.
 
 ## Support
 
