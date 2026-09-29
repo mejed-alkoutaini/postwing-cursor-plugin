@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "postwing": {
+      "url": "https://postwing.io/api/mcp"
+    }
+  }
+}

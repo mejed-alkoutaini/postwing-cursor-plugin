@@ -1,0 +1,22 @@
+{
+  "name": "postwing",
+  "version": "1.0.0",
+  "description": "Schedule social media posts from Cursor. Connect Instagram, TikTok, YouTube, LinkedIn, X, Facebook, Pinterest, and Threads — preview every post, then confirm before it goes live.",
+  "author": {
+    "name": "PostWing",
+    "email": "majdkot0@gmail.com"
+  },
+  "homepage": "https://postwing.io",
+  "repository": "https://github.com/postwing/cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "social-media",
+    "scheduler",
+    "instagram",
+    "tiktok",
+    "linkedin",
+    "mcp",
+    "postwing"
+  ],
+  "logo": "assets/logo.png"
+}
