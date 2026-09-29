@@ -6,9 +6,9 @@
 #   git init
 #   git add .
 #   git commit -m "PostWing Cursor plugin v1.0.0"
-#   gh repo create postwing/cursor-plugin --public --source=. --remote=origin --push
+#   gh repo create mejed-alkoutaini/postwing-cursor-plugin --public --source=. --remote=origin --push
 #
-# Then submit https://github.com/postwing/cursor-plugin at
+# Then submit https://github.com/mejed-alkoutaini/postwing-cursor-plugin at
 # https://cursor.com/marketplace/publish
 #
 # For the marketplace form logo URL, use:

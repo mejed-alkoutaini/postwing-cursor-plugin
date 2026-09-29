@@ -73,10 +73,11 @@ See [postwing.io/privacy](https://postwing.io/privacy) and [postwing.io/docs](ht
 
 This folder is a self-contained Cursor Plugin. To submit to the [Cursor Marketplace](https://cursor.com/marketplace/publish):
 
-1. Push **only this directory** as a public GitHub repo (e.g. `postwing/cursor-plugin`), or keep it as the repo root.
-2. Confirm `main` has `.cursor-plugin/plugin.json`, `mcp.json`, `assets/logo.png`, and this README.
-3. Submit the repo URL on the publish form.
-4. Optionally list on [cursor.directory](https://cursor.directory) for faster community discovery.
+Public repo: [mejed-alkoutaini/postwing-cursor-plugin](https://github.com/mejed-alkoutaini/postwing-cursor-plugin).
+
+1. Confirm `main` has `.cursor-plugin/plugin.json`, `mcp.json`, `assets/logo.png`, and this README.
+2. Submit the repo URL at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
+3. Optionally list on [cursor.directory](https://cursor.directory) for faster community discovery.
 
 ## Support
 
